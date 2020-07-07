@@ -49,9 +49,9 @@ input.invalid {
 
 input+small {
     color: #fd7e14!important;
-    opacity: 0;
+    display: none!important;
 }
 
 input.invalid+small {
-    opacity: 1;
+    display: block!important;
 }
