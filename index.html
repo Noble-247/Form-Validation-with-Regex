@@ -25,31 +25,31 @@
             <h2 class="text-center"><i class="fas fa-user fa-3x fa-fw"></i><br> New User Signup Form</h2>
             <form action="">
                 <div class="form-group">
-                    <label for=""></label>
-                    <input type="text" class="form-control" name="username" id="" aria-describedby="helpId" placeholder="Username" required>
+                    <label for="">Username</label>
+                    <input type="text" class="form-control" name="username" id="user-name" aria-describedby="helpId" placeholder="Username" required>
                     <small id="helpId" class="form-text ">Username must be and contain 5 - 12 characters</small>
                 </div>
                 <div class="form-group">
-                    <label for=""></label>
-                    <input type="text" class="form-control" name="email" id="" aria-describedby="helpId" placeholder="email" required>
+                    <label for="">Email</label>
+                    <input type="text" class="form-control" name="email" id="user-email" aria-describedby="helpId" placeholder="email" required>
                     <small id="helpId" class="form-text ">Email must be a valid address, e.g. me@mydomain.com</small>
                 </div>
                 <div class="form-group">
-                    <label for=""></label>
-                    <input type="password" class="form-control" name="password" id="" aria-describedby="helpId" placeholder="password" required>
+                    <label for="">Password</label>
+                    <input type="password" class="form-control" name="password" id="user-password" aria-describedby="helpId" placeholder="password" required>
                     <small id="helpId" class="form-text ">Password must alphanumeric (@, _ and - are also allowed) and be 8 - 20 characters</small>
                 </div>
                 <div class="form-group">
-                    <label for=""></label>
-                    <input type="text" class="form-control" name="telephone" id="" aria-describedby="helpId" placeholder="telephone" required>
+                    <label for="">Telephone</label>
+                    <input type="text" class="form-control" name="telephone" id="user-telephone" aria-describedby="helpId" placeholder="telephone" required>
                     <small id="helpId" class="form-text ">Telephone must be a valid UK telephone number (11 digits)</small>
                 </div>
                 <div class="form-group">
-                    <label for=""></label>
-                    <input type="text" class="form-control" name="slug" id="" aria-describedby="helpId" placeholder="profile slug" required>
-                    <small id="helpId" class="form-text ">Slug must contain only lowercase letters, numbers and hyphens and be 8 - 20 characters</small>
+                    <label for="">URL</label>
+                    <input type="text" class="form-control" name="url" id="user-url" aria-describedby="helpId" placeholder="profile url" required>
+                    <small id="helpId" class="form-text ">url must contain only lowercase letters, numbers and hyphens and be 8 - 20 characters</small>
                 </div>
-                <button type="submit" class="btn btn-dark btn-block">Submit</button>
+                <button id="submit-btn" type="submit" class="btn btn-dark btn-block">Submit</button>
                 <button type="reset" class="btn btn-dark btn-block">Reset</button>
             </form>
         </div>
@@ -67,8 +67,6 @@
     <!-- Font Awesome JavaScript -->
     <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
     <script src="dev_resource/fontawesome_js.js"></script>
-
-
     <!-- Local JavaScript -->
     <script src="js/app.js"></script>
 </body>
